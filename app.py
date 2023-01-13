@@ -60,8 +60,8 @@ st.plotly_chart(bar_chart)
 
 #----DISPLAY IMAGE AND DATAFRAME
 col1,col2 = st.columns(2)
-image = Image.open('Images\surveyanim.png')
-col1.image(image,
+image1 = Image.open('Images\surveyanim.png')
+col1.image(image1,
          caption= 'Freepik Images',
          use_column_width=True)
 
